@@ -1,0 +1,682 @@
+[
+  {
+    "id": "bannon",
+    "name": "Bannon",
+    "dna": "BANNON_V1_CORE",
+    "role": "Wrestler",
+    "poise": 95,
+    "hp": 10000,
+    "speed": 85,
+    "strength": 90,
+    "physicsScale": 1.1,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "The physical nucleus and absolute force of the Bannon Engine. Driven by raw physics and unmatched grit.",
+    "attires": [
+      {
+        "id": "classic",
+        "name": "Classic Black & Gold",
+        "color": "#000000",
+        "accent": "#f59e0b"
+      },
+      {
+        "id": "street",
+        "name": "Street Fight",
+        "color": "#1e293b",
+        "accent": "#ef4444"
+      },
+      {
+        "id": "apex",
+        "name": "Apex Champion",
+        "color": "#ffffff",
+        "accent": "#ffd700"
+      }
+    ],
+    "has_custom_reference": true
+  },
+  {
+    "id": "cierra",
+    "name": "Cierra",
+    "dna": "CIERRA_FLY_99",
+    "role": "Wrestler",
+    "poise": 85,
+    "hp": 9000,
+    "speed": 98,
+    "strength": 75,
+    "physicsScale": 0.95,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "High-velocity high-flyer and official co-admin of CODEDUMMY bot remote systems. Blurs the line between physics and speed.",
+    "attires": [
+      {
+        "id": "neon",
+        "name": "Cyber Neon",
+        "color": "#111827",
+        "accent": "#ec4899"
+      },
+      {
+        "id": "glitch",
+        "name": "Glitch Lacing",
+        "color": "#06b6d4",
+        "accent": "#f43f5e"
+      }
+    ]
+  },
+  {
+    "id": "marquis",
+    "name": "Marquis",
+    "dna": "MARQUIS_BOSS_ALPHA",
+    "role": "Wrestler",
+    "poise": 100,
+    "hp": 12000,
+    "speed": 80,
+    "strength": 98,
+    "physicsScale": 1.2,
+    "payback": "Low Blow",
+    "manager": "Cierra",
+    "bio": "The Administrator. Exercises final authority with god-tier stats and absolute command of the developmental ring.",
+    "attires": [
+      {
+        "id": "ceo",
+        "name": "CEO Suit",
+        "color": "#1e1b4b",
+        "accent": "#ffd700"
+      },
+      {
+        "id": "armor",
+        "name": "Dark Gold Plate",
+        "color": "#0f172a",
+        "accent": "#d97706"
+      }
+    ]
+  },
+  {
+    "id": "nexus_prime",
+    "name": "Nexus Prime",
+    "dna": "NEXUS_AI_CORRUPT",
+    "role": "Wrestler",
+    "poise": 90,
+    "hp": 10500,
+    "speed": 92,
+    "strength": 88,
+    "physicsScale": 1.05,
+    "payback": "Code Crash",
+    "manager": "None",
+    "bio": "The 24/7 autonomous loop mascot. Holographic visual structures built on unpredictable, high-velocity math.",
+    "attires": [
+      {
+        "id": "hologram",
+        "name": "Holographic Blue",
+        "color": "#1e1b4b",
+        "accent": "#06b6d4"
+      },
+      {
+        "id": "slate",
+        "name": "Slang Slate Text",
+        "color": "#0f172a",
+        "accent": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "mdickie_legend",
+    "name": "MDickie Legend",
+    "dna": "MDICKIE_RETRO_MAX",
+    "role": "Wrestler",
+    "poise": 80,
+    "hp": 9500,
+    "speed": 75,
+    "strength": 82,
+    "physicsScale": 1,
+    "payback": "Instant Pin",
+    "manager": "None",
+    "bio": "Classic low-poly retro combatant paying ultimate homage to the MDickie selection flows and heavy hit reactions.",
+    "attires": [
+      {
+        "id": "classic_shorts",
+        "name": "Classic Shorts",
+        "color": "#ef4444",
+        "accent": "#ffffff"
+      },
+      {
+        "id": "referee",
+        "name": "Ref Stripes",
+        "color": "#000000",
+        "accent": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": "training_dummy",
+    "name": "Crash Dummy",
+    "dna": "TEST_DUMMY_V0",
+    "role": "Wrestler",
+    "poise": 50,
+    "hp": 8000,
+    "speed": 50,
+    "strength": 50,
+    "physicsScale": 1,
+    "payback": "None",
+    "manager": "None",
+    "bio": "The baseline target skin of the Bannon Engine. Ideal for testing deep hit-reaction damping curves and velocity hard-caps.",
+    "attires": [
+      {
+        "id": "default",
+        "name": "Safety Orange",
+        "color": "#f97316",
+        "accent": "#1f2937"
+      }
+    ]
+  },
+  {
+    "id": "vince_m",
+    "name": "The Chairman",
+    "dna": "CHAIRMAN_BOSS_99",
+    "role": "Manager",
+    "poise": 70,
+    "hp": 6000,
+    "speed": 60,
+    "strength": 65,
+    "physicsScale": 1.05,
+    "payback": "Screwed Ref",
+    "manager": "None",
+    "bio": "A power manager with extreme authority modifiers. Commands attention from the ringside.",
+    "attires": [
+      {
+        "id": "classic_suit",
+        "name": "Striped Suit",
+        "color": "#111827",
+        "accent": "#94a3b8"
+      }
+    ]
+  },
+  {
+    "id": "brisk_cj",
+    "name": "Brisk CJ",
+    "dna": "BRISK_CJ_AGENT_MAX",
+    "role": "Wrestler",
+    "poise": 92,
+    "hp": 9800,
+    "speed": 90,
+    "strength": 87,
+    "physicsScale": 1,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "An advanced operations specialist of the Bannon system. Moves with superconductive speed and razor-sharp precision.",
+    "attires": [
+      {
+        "id": "cyber",
+        "name": "Cyber Tech Suit",
+        "color": "#0284c7",
+        "accent": "#38bdf8"
+      },
+      {
+        "id": "stealth",
+        "name": "Stealth Mode",
+        "color": "#18181b",
+        "accent": "#f43f5e"
+      }
+    ]
+  },
+  {
+    "id": "blue_p6",
+    "name": "Blue P6",
+    "dna": "BLUE_P6_DAEMON_CORE",
+    "role": "Wrestler",
+    "poise": 88,
+    "hp": 9600,
+    "speed": 82,
+    "strength": 92,
+    "physicsScale": 1.05,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "A heavy-duty architectural compiler entity. Holds stable physical structures under extreme stress limits.",
+    "attires": [
+      {
+        "id": "sapphire",
+        "name": "Deep Sapphire",
+        "color": "#1e3a8a",
+        "accent": "#60a5fa"
+      },
+      {
+        "id": "reactor",
+        "name": "Active Reactor",
+        "color": "#172554",
+        "accent": "#fbbf24"
+      }
+    ]
+  },
+  {
+    "id": "golem",
+    "name": "Golem",
+    "dna": "GOLEM_CLAY_AVALANCHE",
+    "role": "Wrestler",
+    "poise": 96,
+    "hp": 14000,
+    "speed": 55,
+    "strength": 140,
+    "physicsScale": 1.18,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "A construct of stone and clay — the biggest frame in the building, unmoved and unmaking.",
+    "attires": [
+      {
+        "id": "clay",
+        "name": "Clay Skin",
+        "color": "#7d7f86",
+        "accent": "#ff7a1a"
+      },
+      {
+        "id": "lava",
+        "name": "Lava Cracks",
+        "color": "#1f1f1f",
+        "accent": "#ff3300"
+      }
+    ]
+  },
+  {
+    "id": "zephyr",
+    "name": "Zephyr",
+    "dna": "ZEPHYR_WIND_TEMPEST",
+    "role": "Wrestler",
+    "poise": 84,
+    "hp": 8500,
+    "speed": 125,
+    "strength": 80,
+    "physicsScale": 0.96,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "The ginga never settles — a windstorm of inverted capoeira kicks, leaps, and acrobatic feints.",
+    "attires": [
+      {
+        "id": "green_wind",
+        "name": "Windstorm Green",
+        "color": "#152030",
+        "accent": "#44aaff"
+      },
+      {
+        "id": "white_breeze",
+        "name": "White Breeze",
+        "color": "#ffffff",
+        "accent": "#33cc77"
+      }
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "dna": "TITAN_QUAKE_99",
+    "role": "Wrestler",
+    "poise": 94,
+    "hp": 13000,
+    "speed": 60,
+    "strength": 130,
+    "physicsScale": 1.15,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "Every step causes a tremor, every heavy blow behaves like a fault line. The colossal powerhouse of the ring.",
+    "attires": [
+      {
+        "id": "quake",
+        "name": "Quake Tights",
+        "color": "#222633",
+        "accent": "#c0c4cc"
+      }
+    ]
+  },
+  {
+    "id": "viper",
+    "name": "Viper",
+    "dna": "VIPER_ICE_SHELL",
+    "role": "Wrestler",
+    "poise": 86,
+    "hp": 9000,
+    "speed": 105,
+    "strength": 82,
+    "physicsScale": 0.98,
+    "payback": "Low Blow",
+    "manager": "None",
+    "bio": "Cold, long-range southpaw striker who utilizes a rigid shoulder roll to freeze opponents and strike with venomous range.",
+    "attires": [
+      {
+        "id": "ice",
+        "name": "Glacier Blue",
+        "color": "#102015",
+        "accent": "#33ff88"
+      }
+    ]
+  },
+  {
+    "id": "kage",
+    "name": "Kage",
+    "dna": "KAGE_SHADOW_KARATE",
+    "role": "Wrestler",
+    "poise": 88,
+    "hp": 9200,
+    "speed": 110,
+    "strength": 85,
+    "physicsScale": 1,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "The shadow ninja executing lightning karate blitzes, spin hooks, and high-frequency strikes.",
+    "attires": [
+      {
+        "id": "shadow",
+        "name": "Shinobi Black",
+        "color": "#2a2a3a",
+        "accent": "#9966ff"
+      }
+    ]
+  },
+  {
+    "id": "brutus",
+    "name": "Brutus",
+    "dna": "BRUTUS_IRON_BRAWL",
+    "role": "Wrestler",
+    "poise": 90,
+    "hp": 11000,
+    "speed": 78,
+    "strength": 110,
+    "physicsScale": 1.04,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "Gritty cruiserweight powerhouse with heavy iron hands who relishes close-range brawls.",
+    "attires": [
+      {
+        "id": "iron",
+        "name": "Iron Brown",
+        "color": "#6b5844",
+        "accent": "#ffaa00"
+      }
+    ]
+  },
+  {
+    "id": "mortus",
+    "name": "Mortus",
+    "dna": "MORTUS_BONE_LOCK",
+    "role": "Wrestler",
+    "poise": 88,
+    "hp": 11500,
+    "speed": 72,
+    "strength": 115,
+    "physicsScale": 1.06,
+    "payback": "Instant Pin",
+    "manager": "None",
+    "bio": "A dark grappler whose grips feel like solid bone clamps, grinding matches down to tactical submissions.",
+    "attires": [
+      {
+        "id": "bone",
+        "name": "Cemetery Red",
+        "color": "#882244",
+        "accent": "#ff44aa"
+      }
+    ]
+  },
+  {
+    "id": "ronin",
+    "name": "Ronin",
+    "dna": "RONIN_STEEL_WAND",
+    "role": "Wrestler",
+    "poise": 90,
+    "hp": 10000,
+    "speed": 110,
+    "strength": 90,
+    "physicsScale": 1,
+    "payback": "Code Crash",
+    "manager": "None",
+    "bio": "A masterless wanderer who delivers surgical, katana-fast strikes before slipping out of the line of fire.",
+    "attires": [
+      {
+        "id": "steel",
+        "name": "Wanderer Grey",
+        "color": "#301015",
+        "accent": "#ff3355"
+      }
+    ]
+  },
+  {
+    "id": "cain_elias",
+    "name": "Cain Elias",
+    "dna": "CAIN_ELIAS_VERDICT",
+    "role": "Wrestler",
+    "poise": 98,
+    "hp": 13500,
+    "speed": 70,
+    "strength": 125,
+    "physicsScale": 1.12,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "Cold, brutal corporate enforcer representing past trauma. Finisher: Tombstone Piledriver.",
+    "attires": [
+      {
+        "id": "suit",
+        "name": "Enforcer Suit",
+        "color": "#09090b",
+        "accent": "#dc2626"
+      }
+    ]
+  },
+  {
+    "id": "atlas_vance",
+    "name": "Atlas Vance",
+    "dna": "ATLAS_VANCE_ANCHOR",
+    "role": "Wrestler",
+    "poise": 96,
+    "hp": 11000,
+    "speed": 82,
+    "strength": 105,
+    "physicsScale": 1.05,
+    "payback": "Instant Pin",
+    "manager": "None",
+    "bio": "The moral foundation and anchor of the Anti-Hero Alliance. Exceptional counter-wrestling and submissions.",
+    "attires": [
+      {
+        "id": "classic",
+        "name": "Alliance Blue",
+        "color": "#1e3a8a",
+        "accent": "#3b82f6"
+      }
+    ]
+  },
+  {
+    "id": "stick_up",
+    "name": "Stick-Up",
+    "dna": "STICKUP_CYBORG_OPTIM",
+    "role": "Wrestler",
+    "poise": 88,
+    "hp": 10200,
+    "speed": 95,
+    "strength": 95,
+    "physicsScale": 1,
+    "payback": "Low Blow",
+    "manager": "None",
+    "bio": "The System's Weapon turned Rebel. A highly agile fighter who rob opponents of their momentum.",
+    "attires": [
+      {
+        "id": "street",
+        "name": "Rebel Hood",
+        "color": "#18181b",
+        "accent": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "finxsse",
+    "name": "Finxsse",
+    "dna": "FINXSSE_STATIC_LINE",
+    "role": "Wrestler",
+    "poise": 86,
+    "hp": 8700,
+    "speed": 120,
+    "strength": 82,
+    "physicsScale": 0.95,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "Gravity is a suggestion to this high-flying vanguard of the Anti-Hero Alliance.",
+    "attires": [
+      {
+        "id": "static",
+        "name": "Static Yellow",
+        "color": "#1e1b4b",
+        "accent": "#eab308"
+      }
+    ],
+    "has_custom_reference": true
+  },
+  {
+    "id": "red_cloud",
+    "name": "Red Cloud",
+    "dna": "RED_CLOUD_ANCESTOR",
+    "role": "Wrestler",
+    "poise": 92,
+    "hp": 11200,
+    "speed": 76,
+    "strength": 112,
+    "physicsScale": 1.08,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "Chief Red Cloud: Moral ground-technician who locks down the biggest powerhouses with the Ancestor's Lock.",
+    "attires": [
+      {
+        "id": "heritage",
+        "name": "Clay Heritage",
+        "color": "#451a03",
+        "accent": "#ea580c"
+      }
+    ]
+  },
+  {
+    "id": "cassian_thorne",
+    "name": "Cassian Thorne",
+    "dna": "CASSIAN_THORNE_LURE",
+    "role": "Wrestler",
+    "poise": 94,
+    "hp": 10800,
+    "speed": 94,
+    "strength": 90,
+    "physicsScale": 1.02,
+    "payback": "Code Crash",
+    "manager": "None",
+    "bio": "Flawless and elegant corporate lure who tests Marquis with clinical perfection.",
+    "attires": [
+      {
+        "id": "emerald",
+        "name": "Emerald Silk",
+        "color": "#064e3b",
+        "accent": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "sombra_negra",
+    "name": "Sombra Negra",
+    "dna": "SOMBRA_NEGRA_THIEF",
+    "role": "Wrestler",
+    "poise": 85,
+    "hp": 9100,
+    "speed": 112,
+    "strength": 80,
+    "physicsScale": 0.98,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "Mysterious high-flyer who mirrors opponents' signature offenses mid-match.",
+    "attires": [
+      {
+        "id": "eclipse",
+        "name": "Eclipse Violet",
+        "color": "#2e1065",
+        "accent": "#a855f7"
+      }
+    ]
+  },
+  {
+    "id": "maime",
+    "name": "Maime",
+    "dna": "MAIME_MANIC_CHAOS",
+    "role": "Wrestler",
+    "poise": 90,
+    "hp": 10500,
+    "speed": 115,
+    "strength": 88,
+    "physicsScale": 1,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "Marquis's chaotic alter-ego representing raw, unchecked, and self-destructive manic momentum.",
+    "attires": [
+      {
+        "id": "asylum",
+        "name": "Straightjacket White",
+        "color": "#f4f4f5",
+        "accent": "#71717a"
+      }
+    ],
+    "has_custom_reference": true
+  },
+  {
+    "id": "solaris_justice",
+    "name": "Solaris Justice",
+    "dna": "SOLARIS_JUSTICE_HERO",
+    "role": "Wrestler",
+    "poise": 92,
+    "hp": 9400,
+    "speed": 102,
+    "strength": 86,
+    "physicsScale": 1,
+    "payback": "Instant Pin",
+    "manager": "None",
+    "bio": "The charismatic public high-flyer of Life Path 3 before betrayal broke him down into Bannon.",
+    "attires": [
+      {
+        "id": "gold_sun",
+        "name": "Golden Radiance",
+        "color": "#fef08a",
+        "accent": "#ca8a04"
+      }
+    ]
+  },
+  {
+    "id": "queen_tyneshia",
+    "name": "Queen Tyneshia",
+    "dna": "QUEEN_TYNESHIA_MAX",
+    "role": "Wrestler",
+    "poise": 97,
+    "hp": 12500,
+    "speed": 86,
+    "strength": 120,
+    "physicsScale": 1.08,
+    "payback": "Beast Mode",
+    "manager": "None",
+    "bio": "A dominant, regal powerhouse of the Alliance who commands absolute presence inside any ring.",
+    "attires": [
+      {
+        "id": "royal",
+        "name": "Royal Purple",
+        "color": "#4c1d95",
+        "accent": "#f59e0b"
+      }
+    ],
+    "has_custom_reference": true
+  },
+  {
+    "id": "karma",
+    "name": "Karma",
+    "dna": "KARMA_DEBT_STRIKER",
+    "role": "Wrestler",
+    "poise": 88,
+    "hp": 9300,
+    "speed": 114,
+    "strength": 84,
+    "physicsScale": 0.98,
+    "payback": "Teleport Strike",
+    "manager": "None",
+    "bio": "High-velocity striker who collects ring debts with interest, striking down corrupt heavyweights.",
+    "attires": [
+      {
+        "id": "crimson",
+        "name": "Crimson Retribution",
+        "color": "#7f1d1d",
+        "accent": "#f43f5e"
+      }
+    ]
+  }
+]

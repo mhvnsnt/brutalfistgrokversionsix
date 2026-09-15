@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "engineCall": "FK_Character::loadMeshsAndEffects \u2192 (ISkinnedMesh*)smgr->getMesh(meshfile)",
+  "mesh": "vendor/SchwarzerblitzEngine/schwarzerblitz_engine/bin/media/characters/chara_bannon/Mesh1/BF_bannon.x",
+  "vertices": 13560,
+  "triangles": 17984,
+  "bones": 23,
+  "headerBones": 22,
+  "texture": "bannon.png",
+  "xBytes": 2880689,
+  "roster": "chara_bannon 0",
+  "frame": "public/native/chara_bannon/native-frame.png",
+  "note": "Win32 Schwarzerblitz.exe is not present in the public source tree; this rehearsal parses and rasterizes the exact .x installed in its media slot."
+}

@@ -1,0 +1,14 @@
+node_modules/
+.project_id
+.github_repo
+.env
+.env.*
+dist/
+.output/
+.tanstack/
+*.pyc
+__pycache__/
+BannonSource
+vendor/Bannon
+vendor/SchwarzerblitzEngine
+native/schwarzerblitz_engine

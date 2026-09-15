@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@source not "../native";
+@source not "../public/native";
+@source not "../vendor";
+@source not "../tools";
+@source not "../BannonSource";
+@source not "../docs";
+
+@theme {
+  --color-bg: #0a0a0b;
+  --color-surface: #121214;
+  --color-elevated: #1a1a1e;
+  --color-fg: #f0efe8;
+  --color-muted: #9a9890;
+  --color-subtle: #6f6d68;
+  --color-accent: #c8ccd4;
+  --color-accent-fg: #0a0a0b;
+  --color-border: #2a2a2e;
+  --color-danger: #8b3a3a;
+  --color-ok: #6f8f6a;
+  --font-display: "Barlow Condensed", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Barlow", "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --motion-quick: 150ms;
+  --motion-medium: 250ms;
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+  body {
+    font-family: var(--font-sans);
+    margin: 0;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

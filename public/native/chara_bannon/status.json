@@ -1,0 +1,786 @@
+{
+  "character": "Bannon",
+  "policy": "REAL_GLB_ONLY / REAL_FBX_ONLY",
+  "sourceGlb": "native/source/BANNON.glb",
+  "mesh": {
+    "file": "BF_bannon.x",
+    "vertices": 13560,
+    "triangles": 17984,
+    "bones": 23,
+    "headerBones": 22,
+    "xBytes": 2880689,
+    "scale": 6.383048,
+    "texture": "bannon.png"
+  },
+  "engine": {
+    "executableLoads": "FK_Character::loadMeshsAndEffects \u2192 (ISkinnedMesh*)smgr->getMesh(meshfile)",
+    "getMesh": "smgr->getMesh(\"/workspace/vendor/SchwarzerblitzEngine/schwarzerblitz_engine/bin/media/characters/chara_bannon/Mesh1/BF_bannon.x\")",
+    "roster": "chara_bannon 0",
+    "path": "vendor/SchwarzerblitzEngine/schwarzerblitz_engine/bin/media/characters/chara_bannon",
+    "outfit": "Mesh1/BF_bannon.x",
+    "installed": true,
+    "win32Note": "Schwarzerblitz.exe is a Visual Studio / DirectX 9 build and is not in the public source tree. The .x is installed in the exact media slot the compiled exe loads."
+  },
+  "mocap": {
+    "listed": 183,
+    "exported": 158,
+    "missing_lfs": 0,
+    "missing_fbx": 0,
+    "corrupt_fbx": 0,
+    "skipped_character_rig": 25,
+    "skipped_too_large": 0,
+    "failed": 0,
+    "mixamo": 103,
+    "J_rig": 55
+  },
+  "bound": [
+    {
+      "engine": "jab",
+      "clip": "Combo Punch",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/jab.x"
+    },
+    {
+      "engine": "heavy",
+      "clip": "Drop Kick",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/heavy.x"
+    },
+    {
+      "engine": "kick",
+      "clip": "Hurricane Kick",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/kick.x"
+    },
+    {
+      "engine": "hitReaction",
+      "clip": "Hit Reaction",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/hitReaction.x"
+    },
+    {
+      "engine": "knockdown",
+      "clip": "Falling Flat Impact",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/knockdown.x"
+    },
+    {
+      "engine": "block",
+      "clip": "Esquiva 4",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/block.x"
+    },
+    {
+      "engine": "evade",
+      "clip": "Corkscrew Evade",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/evade.x"
+    },
+    {
+      "engine": "taunt",
+      "clip": "Capoeira",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/taunt.x"
+    },
+    {
+      "engine": "getup",
+      "clip": "Kip Up",
+      "frames": 272,
+      "x": "native/media/characters/chara_bannon/animations/getup.x"
+    },
+    {
+      "engine": "intro",
+      "clip": "Idle",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/intro.x"
+    }
+  ],
+  "missing": [],
+  "clips": [
+    {
+      "clip": "idle",
+      "viewer": "clips/idle.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "walkFast",
+      "viewer": "clips/walkFast.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "running",
+      "viewer": "clips/running.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "Action Idle To Standing Idle",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Action_Idle_To_Standing_Idle.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "AlternatingForearms",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/AlternatingForearms.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 120
+    },
+    {
+      "clip": "ApronJayKick",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/ApronJayKick.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 340
+    },
+    {
+      "clip": "AssistedCutter",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/AssistedCutter.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 360
+    },
+    {
+      "clip": "AssistedDivSenton",
+      "cat": "dive",
+      "status": "exported",
+      "viewer": "clips/AssistedDivSenton.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 360
+    },
+    {
+      "clip": "AssistedReverseGoozleChop",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/AssistedReverseGoozleChop.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 278
+    },
+    {
+      "clip": "Baseball Hit",
+      "cat": "weapon",
+      "status": "exported",
+      "viewer": "clips/Baseball_Hit.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Big Body Blow",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Big_Body_Blow.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Big Jump",
+      "cat": "aerial_transition",
+      "status": "exported",
+      "viewer": "clips/Big_Jump.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Big Rib Hit",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Big_Rib_Hit.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Body Block",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Body_Block.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Body Jab Cross",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Body_Jab_Cross.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Box Idle",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Box_Idle.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing (1)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing (2)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing_2.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing (3)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing_3.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing (4)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing_4.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Boxing (5)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Boxing_5.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Braced Hang Hop Up",
+      "cat": "aerial_transition",
+      "status": "exported",
+      "viewer": "clips/Braced_Hang_Hop_Up.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "BrainBuster",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/BrainBuster.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 224
+    },
+    {
+      "clip": "Breakdance Footwork 3",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Footwork_3.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Breakdance Footwork 3 (1)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Footwork_3_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Breakdance Footwork To Freeze",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Footwork_To_Freeze.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Breakdance Freezes",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Freezes.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Breakdance Ready",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Ready.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Breakdance Uprock To Ground",
+      "cat": "getup",
+      "status": "exported",
+      "viewer": "clips/Breakdance_Uprock_To_Ground.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Brooklyn Uprock",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Brooklyn_Uprock.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Brutal Assassination",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/Brutal_Assassination.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "BuckleBombEnzugiri",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/BuckleBombEnzugiri.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 285
+    },
+    {
+      "clip": "Can Can",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Can_Can.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Capoeira",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Capoeira.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Capoeira (1)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Capoeira_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Cartwheel",
+      "cat": "aerial_transition",
+      "status": "exported",
+      "viewer": "clips/Cartwheel.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 145
+    },
+    {
+      "clip": "CemeteryDrive",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/CemeteryDrive.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 175
+    },
+    {
+      "clip": "Chokeslam",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/Chokeslam.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 170
+    },
+    {
+      "clip": "Climbing A Rope",
+      "cat": "rope_transition",
+      "status": "exported",
+      "viewer": "clips/Climbing_A_Rope.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Climbing A Rope (1)",
+      "cat": "rope_transition",
+      "status": "exported",
+      "viewer": "clips/Climbing_A_Rope_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Climbing Up Wall",
+      "cat": "rope_transition",
+      "status": "exported",
+      "viewer": "clips/Climbing_Up_Wall.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "CodeRed",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/CodeRed.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 300
+    },
+    {
+      "clip": "Combo Punch",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Combo_Punch.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Corkscrew Evade",
+      "cat": "dive",
+      "status": "exported",
+      "viewer": "clips/Corkscrew_Evade.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Corkscrew Kip Up",
+      "cat": "getup",
+      "status": "exported",
+      "viewer": "clips/Corkscrew_Kip_Up.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Cross Jumps",
+      "cat": "aerial_transition",
+      "status": "exported",
+      "viewer": "clips/Cross_Jumps.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "CrotchChop",
+      "cat": "taunt",
+      "status": "exported",
+      "viewer": "clips/CrotchChop.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 150
+    },
+    {
+      "clip": "Crouch Idle 02 Looking Around",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Crouch_Idle_02_Looking_Around.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Crouch Torch Walk Right",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Crouch_Torch_Walk_Right.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Crouch Walk Forward",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Crouch_Walk_Forward.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "CrucifixPin",
+      "cat": "submission",
+      "status": "exported",
+      "viewer": "clips/CrucifixPin.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 240
+    },
+    {
+      "clip": "DDT",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/DDT.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 172
+    },
+    {
+      "clip": "Dancing",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Dancing.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Dancing (1)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Dancing_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Dancing (2)",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Dancing_2.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Dancing Running Man",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Dancing_Running_Man.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Dancing Twerk",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Dancing_Twerk.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Death From Back Headshot",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Death_From_Back_Headshot.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Defeat",
+      "cat": "taunt",
+      "status": "exported",
+      "viewer": "clips/Defeat.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Double Leg Takedown - Victim",
+      "cat": "submission",
+      "status": "exported",
+      "viewer": "clips/Double_Leg_Takedown_Victim.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Double Leg Takedown - Victim (1)",
+      "cat": "submission",
+      "status": "exported",
+      "viewer": "clips/Double_Leg_Takedown_Victim_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "DoubleSuplex",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/DoubleSuplex.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 330
+    },
+    {
+      "clip": "DragonScrew",
+      "cat": "submission",
+      "status": "exported",
+      "viewer": "clips/DragonScrew.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 180
+    },
+    {
+      "clip": "Drop Kick",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Drop_Kick.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Drop Kick (1)",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Drop_Kick_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Drunk Idle Variation",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Idle_Variation.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Drunk Run Forward",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Run_Forward.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Drunk Walk",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Walk.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Dwarf Walk",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Dwarf_Walk.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Dying Backwards",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Dying_Backwards.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Esquiva 3",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Esquiva_3.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Esquiva 4",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Esquiva_4.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Esquiva 4 (1)",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Esquiva_4_1.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "FaceGouge",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/FaceGouge.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 150
+    },
+    {
+      "clip": "Fall B Loop",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Fall_B_Loop.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 272
+    },
+    {
+      "clip": "Falling Flat Impact",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Falling_Flat_Impact.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Falling Forward Death",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Falling_Forward_Death.json",
+      "source": "real FBX mocap (mixamo)",
+      "frames": 100
+    },
+    {
+      "clip": "Fatality",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/Fatality.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 360
+    },
+    {
+      "clip": "FenceM-Kick",
+      "cat": "irish_whip",
+      "status": "exported",
+      "viewer": "clips/FenceM_Kick.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 120
+    },
+    {
+      "clip": "FenceThrow",
+      "cat": "irish_whip",
+      "status": "exported",
+      "viewer": "clips/FenceThrow.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 180
+    },
+    {
+      "clip": "FenceThrow_002",
+      "cat": "irish_whip",
+      "status": "exported",
+      "viewer": "clips/FenceThrow_002.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 180
+    },
+    {
+      "clip": "GermanSuplex",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/GermanSuplex.json",
+      "source": "real FBX mocap (J_rig)",
+      "frames": 235
+    },
+    {
+      "clip": "Hurricane Kick",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Hurricane_Kick.json",
+      "source": "engine bind",
+      "frames": 100
+    },
+    {
+      "clip": "Hit Reaction",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Hit_Reaction.json",
+      "source": "engine bind",
+      "frames": 100
+    },
+    {
+      "clip": "Kip Up",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Kip_Up.json",
+      "source": "engine bind",
+      "frames": 272
+    }
+  ]
+}

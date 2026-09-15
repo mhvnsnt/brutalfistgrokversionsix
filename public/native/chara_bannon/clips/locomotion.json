@@ -1,0 +1,20 @@
+[
+  {
+    "clip": "idle",
+    "viewer": "clips/idle.json",
+    "cat": "locomotion",
+    "status": "exported"
+  },
+  {
+    "clip": "walkFast",
+    "viewer": "clips/walkFast.json",
+    "cat": "locomotion",
+    "status": "exported"
+  },
+  {
+    "clip": "running",
+    "viewer": "clips/running.json",
+    "cat": "locomotion",
+    "status": "exported"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "policy": "REAL_FBX_ONLY aliases into engine animation names",
+  "bound": [
+    {
+      "engine": "jab",
+      "clip": "Combo Punch",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/jab.x"
+    },
+    {
+      "engine": "heavy",
+      "clip": "Drop Kick",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/heavy.x"
+    },
+    {
+      "engine": "kick",
+      "clip": "Hurricane Kick",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/kick.x"
+    },
+    {
+      "engine": "hitReaction",
+      "clip": "Hit Reaction",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/hitReaction.x"
+    },
+    {
+      "engine": "knockdown",
+      "clip": "Falling Flat Impact",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/knockdown.x"
+    },
+    {
+      "engine": "block",
+      "clip": "Esquiva 4",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/block.x"
+    },
+    {
+      "engine": "evade",
+      "clip": "Corkscrew Evade",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/evade.x"
+    },
+    {
+      "engine": "taunt",
+      "clip": "Capoeira",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/taunt.x"
+    },
+    {
+      "engine": "getup",
+      "clip": "Kip Up",
+      "frames": 272,
+      "x": "native/media/characters/chara_bannon/animations/getup.x"
+    },
+    {
+      "engine": "intro",
+      "clip": "Idle",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/intro.x"
+    }
+  ],
+  "missing": []
+}
