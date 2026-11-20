@@ -376,3 +376,11 @@ No game is on a commercial or sale track until the owner explicitly says "I'm go
 
 ## No-data-loss rules (MANDATORY)
 Read and follow [`docs/NO-DATA-LOSS-RULES.md`](docs/NO-DATA-LOSS-RULES.md) (canonical: mhvnsnt/agent-ops). No force-push, no rebase/amend of pushed work, no history rewrite, no branch/asset deletion without backup + owner approval, PRs only, empty D-filter + gitleaks + green CI before merge, push incrementally, keep WORKLOG, back up and sha256-verify before disk cleanup, never touch other agents' or Muse's work.
+
+## Pre-made parts first (Mars, 2026-11-20)
+
+Don't hand-build what already exists and works well. Before decoding/decrypting/reverse-engineering/building anything from scratch, go get the pre-made part from wherever it already exists and work FROM it.
+
+Mars's machine metaphor: "you don't build a battery for a machine or a cog for a machine from scratch you order it online and you just replace the cog."
+
+Spend the work on the innovative parts, not re-doing what's already well-built. Source categories: commercial games; open source; closed-source teardowns; fan translation / ROM hacking scene; modding community; fan-made tools and docs; decompilations (decomps) and recompilations (recomps); community knowledge (Xentax/ZenHAX, TCRF, wikis, FAQs, archive.org).
